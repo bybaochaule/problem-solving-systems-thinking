@@ -1,1 +1,17 @@
+interface:
+  display_name: "Problem Solving & Systems Thinking"
+  short_description: "Decomposes problems, maps workflows, and designs end-to-end agent flows."
+  default_prompt: "Decompose this problem, map the workflow, identify decision points, and design how the agent should think, decide, act, validate, and escalate."
 
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
+    - references/lead-generation-example.md
+    - assets/workflow-map-template.md
+    - scripts/example_helper.py
